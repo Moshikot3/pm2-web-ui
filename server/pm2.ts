@@ -15,7 +15,7 @@ export const getApp = async (name): Promise<IApp> => {
   for (let i = 0; i < list.length; i++) {
     const app = list[i];
 
-    if (app.name != "WAFP-BAZAK") { continue; }
+    if (app.name != "Whatsapp_forwarder-Bazak") { continue; }
 
     apps.push(app);
 

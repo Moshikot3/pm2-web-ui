@@ -7,7 +7,7 @@ Troubleshooting build on node 16^
 Linux and macOS (Windows Git Bash)-
 ```sh
 export NODE_OPTIONS=--openssl-legacy-provider
-npm install --legacy-peer-deps
+
 ```
 Windows command prompt-
 ```sh
@@ -55,7 +55,7 @@ $env:NODE_OPTIONS = "--openssl-legacy-provider"
 ```
 $ git clone git@github.com:alexnzarov/pm2-web-ui.git
 $ cd pm2-web-ui
-$ npm i
+$ npm install --legacy-peer-deps
 ```
 
 > How to configure?

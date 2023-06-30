@@ -7,6 +7,7 @@ Troubleshooting build on node 16^
 Linux and macOS (Windows Git Bash)-
 ```sh
 export NODE_OPTIONS=--openssl-legacy-provider
+npm install --legacy-peer-deps
 ```
 Windows command prompt-
 ```sh
